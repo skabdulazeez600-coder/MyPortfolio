@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Sk Abdul Azeez</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #eef2ff, #f0fdfa);
+            color: #1e293b;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1d4ed8, #7c3aed);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background: white;
+            text-align: center;
+            padding: 18px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: bold;
+            margin: 0 18px;
+        }
+
+        nav a:hover {
+            color: #7c3aed;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .title {
+            text-align: center;
+            color: #312e81;
+            margin-bottom: 35px;
+            font-size: 30px;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 18px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border-left: 7px solid #7c3aed;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-card h2 {
+            color: #2563eb;
+            margin-bottom: 12px;
+        }
+
+        .project-card p {
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+        .year {
+            display: inline-block;
+            background: #fef3c7;
+            color: #92400e;
+            padding: 7px 14px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .tech {
+            display: inline-block;
+            background: #ede9fe;
+            color: #6d28d9;
+            padding: 7px 12px;
+            border-radius: 15px;
+            margin: 4px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            background: #172554;
+            color: white;
+            padding: 22px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px;
+            }
+
+            header h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Projects</h1>
+        <p>Projects I have built and worked on</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="project.html">Projects</a>
+    </nav>
+
+    <main>
+
+        <h2 class="title">My Projects 🚀</h2>
+
+        <div class="project-card">
+            <span class="year">First Year Project</span>
+
+            <h2>🎮 Rock Paper Scissors Game</h2>
+
+            <p>
+                I created a basic Rock Paper Scissors game during my first year
+                as a programming project. The project helped me understand
+                programming fundamentals and improve my logical thinking.
+            </p>
+
+            <p>
+                The game allows the user to choose Rock, Paper or Scissors and
+                determines the winner based on the game rules.
+            </p>
+
+            <span class="tech">C Programming</span>
+            <span class="tech">Game Logic</span>
+            <span class="tech">Conditional Statements</span>
+            <span class="tech">Problem Solving</span>
+        </div>
+
+        <div class="project-card">
+            <span class="year">Personal Project</span>
+
+            <h2>🌐 Personal Portfolio Website</h2>
+
+            <p>
+                I created this personal portfolio website to showcase my
+                education, technical skills, projects and professional
+                information.
+            </p>
+
+            <span class="tech">HTML</span>
+            <span class="tech">CSS</span>
+            <span class="tech">GitHub Pages</span>
+        </div>
+
+        <div class="project-card">
+            <span class="year">Learning Projects</span>
+
+            <h2>🐍 Python Practice</h2>
+
+            <p>
+                I am learning Python and developing small practice programs
+                to improve my programming skills, logical thinking and
+                problem-solving ability.
+            </p>
+
+            <span class="tech">Python</span>
+            <span class="tech">Programming</span>
+            <span class="tech">Problem Solving</span>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sk Abdul Azeez | My Portfolio</p>
+    </footer>
+
+</body>
+</html>
